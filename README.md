@@ -1,4 +1,4 @@
-# 🍓 BerryBloom – Discover the Benefits of Strawberries
+# 🍓 BerryBloom –Website for Strawberry facts
 
 This project utilizes `React Router v6` to enable smooth client-side navigation without reloading the page.
 ---
