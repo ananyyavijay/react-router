@@ -8,7 +8,9 @@ function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center text-4xl font-bold">
-              <p>Berry<span className="text-red-800">Bloom</span></p>
+              <p>
+                Berry<span className="text-red-800">Bloom</span>
+              </p>
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -44,10 +46,15 @@ function Footer() {
                     Github
                   </a>
                 </li>
-                <li>
-                  <Link to="/" className="hover:underline">
-                    Discord
-                  </Link>
+                <li className="mb-4">
+                  <a
+                    href="https://www.linkedin.com/in/ananya-vijay-bb31052a7/"
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Linkedln
+                  </a>
                 </li>
               </ul>
             </div>
