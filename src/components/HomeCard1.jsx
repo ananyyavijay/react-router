@@ -1,39 +1,21 @@
-// import React from "react";
-
-// function HomeCard1() {
-//   return (
-//     <div>
-//       <h1 className="text-4xl font-bold">🔬 Health & Nutrition</h1>
-//       <p>
-//         Strawberries are more than just sweet treats — they’re nutrition-packed
-//         superfruits. These vibrant berries are rich in vitamin C, antioxidants,
-//         and fiber, supporting immunity, glowing skin, and healthy digestion.
-//       </p>
-//       <p>
-//         Low in calories but high in nutrients, strawberries help:
-//         <ul>
-//           <li>💓 Boost heart health</li>
-//           <li>🧠 Protect brain function</li>
-//           <li>🔥 Fight inflammation</li>
-//           <li>⚖️ Support weight management</li>
-//         </ul>
-//       </p>
-//       <br />
-//       <p>
-//         Whether fresh, frozen, or blended into smoothies, strawberries are a
-//         simple and delicious way to fuel your body naturally.
-//       </p>
-//       <p>🍓 Eat smart, stay vibrant — with the power of strawberries!</p>
-//     </div>
-//   );
-// }
-
 import React from "react";
 
 function HomeCard1() {
   return (
-    <div className="min-h-screen bg-white py-12 px-4 sm:px-8">
-      <div className="max-w-4xl mx-auto bg-white/90 p-8 rounded-lg shadow-lg">
+    
+     <div className="relative min-h-screen bg-white py-12 px-4 sm:px-8 overflow-hidden">
+
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="https://images.pexels.com/photos/4443477/pexels-photo-4443477.jpeg"
+          alt="Strawberries"
+          className="w-full h-full object-cover "
+        />
+      </div>
+
+      {/* Overlay content */}
+      <div className="relative z-10 max-w-4xl mx-auto bg-white/90 p-8 rounded-lg shadow-lg">
         <h2 className="text-3xl sm:text-4xl font-semibold text-red-800 mb-4">
           🔬 Health & Nutrition
         </h2>
