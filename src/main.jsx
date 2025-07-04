@@ -8,6 +8,7 @@ import Home from "./components/home.jsx";
 import Contact from "./components/contact.jsx";
 import Github from "./components/Github.jsx";
 import Facts from "./components/Facts.jsx";
+import HomeCard1 from "./components/HomeCard1.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,11 @@ const router = createBrowserRouter([
         path: "",
         element: <Home />,
       },
-       {
+      {
+        path: "healthy",
+        element: <HomeCard1 />,
+      },
+      {
         path: "facts",
         element: <Facts />,
       },

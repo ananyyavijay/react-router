@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 function Home() {
   return (
@@ -73,9 +74,20 @@ function Home() {
             deliciously easy.
           </p>
 
-          <button className="bg-orange-700 text-white px-6 py-3 rounded-md shadow-md hover:bg-red-800 transition">
-            Read More
-          </button>
+          {/* <button className="bg-orange-700 text-white px-6 py-3 rounded-md shadow-md hover:bg-red-800 transition"
+          >
+           <Link to="/healthy">Read More</Link>
+
+          </button> */}
+          <div className=" mt-4">
+            <p className="text-xl mb-4">Want to know more?</p>
+            <Link
+              to="/healthy"
+              className="bg-orange-700 text-white px-6 py-3 rounded-md shadow-md hover:bg-red-800 transition"
+            >
+              Explore Health Benefits
+            </Link>
+          </div>
         </div>
       </div>
       <div className="min-h-screen bg-white flex flex-col md:flex-row items-center justify-center px-4 sm:px-8 py-12 relative">
@@ -144,6 +156,7 @@ function Home() {
           </button>
         </div>
       </div>
+      <Outlet />
     </div>
   );
 }
