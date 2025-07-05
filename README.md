@@ -23,6 +23,7 @@ https://api.nal.usda.gov/fdc/v1/foods/search?api_key=YaYrKkK44cp9owfbaCr9YYdmvDL
 
 You can get your own API key [here](https://fdc.nal.usda.gov/api-key-signup.html).  
 The project uses this key (public demo):
+`YaYrKkK44cp9owfbaCr9YYdmvDLqexkUp79m841c`
 
 ---
 
