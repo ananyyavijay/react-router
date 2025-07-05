@@ -8,6 +8,22 @@ This project utilizes `React Router v6` to enable smooth client-side navigation 
 - A shared **`Layout`** component includes the site's structure (like `Header` and `Footer`) and uses `<Outlet />` to inject child components dynamically.
 - Navigation is built using **`NavLink`**, which applies active styles based on the current route.
 - Routes are organized cleanly with each major page component (e.g., `Home`, `About`, `Contact`, `Github`) defined in the router configuration.
+- This project integrates live nutrition data using the **[USDA FoodData Central API](https://fdc.nal.usda.gov/api-key-signup.html)** to display nutrient details for strawberries in the **Health & Nutrition** section (`HomeCard1.jsx`).
+
+### 🔗 API Endpoint Used
+
+https://api.nal.usda.gov/fdc/v1/foods/search?api_key=YaYrKkK44cp9owfbaCr9YYdmvDLqexkUp79m841c&query=strawberries
+
+
+> This endpoint returns food data for strawberries, including nutrients like calories, carbs, vitamin C, fiber, etc.
+
+---
+
+### 🔐 API Key
+
+You can get your own API key [here](https://fdc.nal.usda.gov/api-key-signup.html).  
+The project uses this key (public demo):
+
 ---
 
 ## 🚀 Getting Started
