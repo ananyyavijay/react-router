@@ -73,17 +73,12 @@ function Home() {
             to a salad, or enjoyed fresh, strawberries make healthy eating
             deliciously easy.
           </p>
-
-          {/* <button className="bg-orange-700 text-white px-6 py-3 rounded-md shadow-md hover:bg-red-800 transition"
-          >
-           <Link to="/healthy">Read More</Link>
-
-          </button> */}
+          
           <div className=" mt-4">
-            <p className="text-xl mb-4">Want to know more?</p>
+            <p className=" mb-4">Want to know more?</p>
             <Link
               to="/healthy"
-              className="bg-orange-700 text-white px-6 py-3 rounded-md shadow-md hover:bg-red-800 transition"
+              className="bg-orange-700 text-white px-5 py-3 rounded-md shadow-md hover:bg-red-800 transition "
             >
               Explore Health Benefits
             </Link>
@@ -99,7 +94,7 @@ function Home() {
 
           <hr className="w-16 border-t-4 border-green-700 mb-4" />
 
-          <p className="text-gray-800 text-justify leading-relaxed mb-6">
+          <p className="text-gray-800 text-justify leading-relaxed mb-10">
             Discover the sweetest ways to enjoy strawberries! From classic
             strawberry shortcakes to refreshing smoothies and zesty salads, our
             recipes bring out the berry best in every bite. Whether you're a
@@ -109,9 +104,13 @@ function Home() {
             bursting with flavor, nutrition, and creativity!
           </p>
 
-          <button className="bg-orange-700 text-white px-6 py-3 rounded-md shadow-md hover:bg-red-800 transition">
+          {/* <button className="bg-orange-700 text-white px-6 py-3 rounded-md shadow-md hover:bg-red-800 transition">
             Get Recipies
-          </button>
+          </button> */}
+          <Link to="/recipes"
+          className="bg-orange-700 text-white px-6 py-3 rounded-md shadow-md hover:bg-red-800 transition">
+            Get Recipes
+          </Link>
         </div>
 
         {/* Right Image (now second) */}

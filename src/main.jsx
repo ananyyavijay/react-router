@@ -6,9 +6,10 @@ import Layout from "./layout.jsx";
 import About from "./components/about.jsx";
 import Home from "./components/home.jsx";
 import Contact from "./components/contact.jsx";
-import Github from "./components/Github.jsx";
 import Facts from "./components/Facts.jsx";
 import HomeCard1 from "./components/HomeCard1.jsx";
+import Blog from "./components/Blog.jsx";
+import HomeCard2 from "./components/HomeCard2.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
         element: <HomeCard1 />,
       },
       {
+        path: "recipes",
+        element: <HomeCard2 />
+      },  
+      {
         path: "facts",
         element: <Facts />,
       },
@@ -36,8 +41,8 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "github",
-        element: <Github />,
+        path: "blog",
+        element: <Blog />,
       },
     ],
   },
